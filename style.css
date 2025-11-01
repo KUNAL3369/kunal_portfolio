@@ -118,8 +118,9 @@ nav a:hover {
 /* Skills */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
+    justify-items: center;
 }
 
 .skill-category h3 {
@@ -188,13 +189,14 @@ nav a:hover {
 }
 
 .links a {
-    color: #007bff;
+    color: #912f56;
     text-decoration: none;
     margin-right: 20px;
     font-weight: 500;
 }
 
 .links a:hover {
+    color: #7a2546;
     text-decoration: underline;
 }
 
@@ -234,7 +236,7 @@ footer {
 }
 
 #back-to-top {
-    background-color: #007bff;
+    background-color: #912f56;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -245,7 +247,7 @@ footer {
 }
 
 #back-to-top:hover {
-    background-color: #0056b3;
+    background-color: #7a2546;
 }
 
 /* Responsive Design */
