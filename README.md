@@ -2,7 +2,6 @@
 
 A modern, professional portfolio website showcasing my skills, experience, and projects as a Frontend Developer specializing in React.js, dashboards, and automation.
 
-![Portfolio Preview](https://via.placeholder.com/1200x600/1a1d29/3b82f6?text=Kunal+Prabhakar+Portfolio)
 
 ## 🌐 Live Demo
 
