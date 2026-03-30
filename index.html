@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kunal Prabhakar - Frontend Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Kunal Prabhakar, a Frontend Developer specializing in React.js, JavaScript, API Integration, and n8n Automation."
+    />
+    <meta
+      name="keywords"
+      content="Frontend Developer, React.js, JavaScript, API Integration, n8n, Portfolio"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="logo">KP</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a
+          href="https://drive.google.com/uc?export=download&id=17BnnWtVZ1NLR0E7lr4sQgAv4I186Q42f"
+          class="resume-btn"
+          download="Kunal_Prabhakar_Resume.pdf"
+        >
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+        <button class="mobile-menu-btn" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a
+            href="https://drive.google.com/uc?export=download&id=17BnnWtVZ1NLR0E7lr4sQgAv4I186Q42f"
+            class="resume-btn-mobile"
+            download="Kunal_Prabhakar_Resume.pdf"
+            >Download Resume</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-background">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">Kunal Prabhakar</h1>
+          <h2 class="hero-title">Frontend Developer</h2>
+          <p class="hero-tagline">
+            "Building Production-Ready Dashboards & Internal Tools with React"
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-eye"></i> View Projects
+            </a>
+            <a
+              href="https://drive.google.com/uc?export=download&id=17BnnWtVZ1NLR0E7lr4sQgAv4I186Q42f"
+              class="btn btn-secondary"
+              download="Kunal_Prabhakar_Resume.pdf"
+            >
+              >
+              <i class="fas fa-download"></i> Download Resume
+            </a>
+          </div>
+          <div class="hero-social">
+            <a
+              href="https://github.com/KUNAL3369"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/prabhakarkunal"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:kunal.prabhakar3082@gmail.com" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="avatar-container">
+            <div class="avatar">
+              <img
+                src="Photo/pp.JPG"
+                alt="Kunal Prabhakar"
+                class="profile-photo"
+              />
+            </div>
+            <div class="avatar-ring"></div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="#about"
+        class="scroll-indicator"
+        aria-label="Scroll to about section"
+      >
+        <i class="fas fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title" data-animate>About Me</h2>
+        <div class="about-content">
+          <div class="about-text" data-animate>
+            <p class="about-summary">
+              Frontend Developer with an M.Tech in Computer Science and
+              Engineering, specializing in building responsive, data-driven
+              dashboards and internal operational tools using React and modern
+              JavaScript. I focus on transforming complex data and REST APIs
+              into clean, intuitive interfaces that support real-world workflows
+              for marketing, operations, and engineering teams.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card" data-animate>
+              <div class="stat-icon">
+                <i class="fas fa-tachometer-alt"></i>
+              </div>
+              <div class="stat-number" data-target="25">0</div>
+              <div class="stat-label">% Performance Improvement</div>
+            </div>
+            <div class="stat-card" data-animate>
+              <div class="stat-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="stat-number" data-target="40">0</div>
+              <div class="stat-label">% Effort Reduction</div>
+            </div>
+            <div class="stat-card" data-animate>
+              <div class="stat-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="stat-number" data-target="50">0</div>
+              <div class="stat-label">+ Students Mentored</div>
+            </div>
+            <div class="stat-card" data-animate>
+              <div class="stat-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="stat-number" data-target="3">0</div>
+              <div class="stat-label">+ Production Dashboards</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title" data-animate>Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-category" data-animate>
+            <div class="skill-header">
+              <div class="skill-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Core Frontend</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-tag">React.js</span>
+              <span class="skill-tag">JavaScript (ES6+)</span>
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">Tailwind CSS</span>
+              <span class="skill-tag">Responsive Design</span>
+            </div>
+          </div>
+          <div class="skill-category" data-animate>
+            <div class="skill-header">
+              <div class="skill-icon">
+                <i class="fas fa-layer-group"></i>
+              </div>
+              <h3>State & APIs</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-tag">React Hooks</span>
+              <span class="skill-tag">Zustand</span>
+              <span class="skill-tag">REST APIs</span>
+              <span class="skill-tag">Async JavaScript</span>
+              <span class="skill-tag">Zod Validation</span>
+            </div>
+          </div>
+          <div class="skill-category" data-animate>
+            <div class="skill-header">
+              <div class="skill-icon">
+                <i class="fas fa-chart-bar"></i>
+              </div>
+              <h3>Data Visualization</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-tag">Recharts</span>
+              <span class="skill-tag">Dashboards</span>
+              <span class="skill-tag">Metric Visualization</span>
+              <span class="skill-tag">Trend Analysis</span>
+            </div>
+          </div>
+          <div class="skill-category" data-animate>
+            <div class="skill-header">
+              <div class="skill-icon">
+                <i class="fas fa-tools"></i>
+              </div>
+              <h3>Development Tools</h3>
+            </div>
+            <div class="skill-list">
+              <span class="skill-tag">Git/GitHub</span>
+              <span class="skill-tag">Vite</span>
+              <span class="skill-tag">Chrome DevTools</span>
+              <span class="skill-tag">n8n</span>
+              <span class="skill-tag">VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title" data-animate>Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item" data-animate>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Frontend Developer Intern</h3>
+                <span class="company">Boomxmedia</span>
+              </div>
+              <div class="timeline-meta">
+                <span><i class="fas fa-calendar"></i> Oct 2025 – Dec 2025</span>
+                <span><i class="fas fa-map-marker-alt"></i> Remote</span>
+              </div>
+              <ul class="timeline-achievements">
+                <li>
+                  Improved page performance by 25% through component
+                  optimization
+                </li>
+                <li>
+                  Integrated REST APIs with proper async handling and error
+                  boundaries
+                </li>
+                <li>
+                  Automated internal reporting workflows using n8n (40% effort
+                  reduction)
+                </li>
+                <li>
+                  Shipped production-ready UI in Agile sprints for 20+ users
+                </li>
+              </ul>
+              <div class="timeline-tech">
+                <span>React.js</span>
+                <span>JavaScript</span>
+                <span>REST APIs</span>
+                <span>n8n</span>
+                <span>Git</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item" data-animate>
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Teaching Assistant – Frontend Development</h3>
+                <span class="company"
+                  >Vignan's Foundation for Science, Technology & Research</span
+                >
+              </div>
+              <div class="timeline-meta">
+                <span><i class="fas fa-calendar"></i> Aug 2023 – Apr 2025</span>
+                <span><i class="fas fa-map-marker-alt"></i> Guntur, India</span>
+              </div>
+              <ul class="timeline-achievements">
+                <li>
+                  Mentored 50+ students in React fundamentals and API
+                  integration
+                </li>
+                <li>
+                  Conducted code reviews on component architecture and state
+                  management
+                </li>
+                <li>Guided students through complete project lifecycle</li>
+              </ul>
+              <div class="timeline-tech">
+                <span>React.js</span>
+                <span>JavaScript</span>
+                <span>HTML/CSS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title" data-animate>Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card" data-animate>
+            <div class="project-image">
+              <div
+                class="project-placeholder"
+                style="
+                  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                "
+              >
+                <i class="fas fa-chart-line"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Frontend Observability Dashboard</h3>
+              <p>
+                Production-style dashboard monitoring real-time frontend
+                performance metrics (Page Load Time, API Latency, Error Rate)
+                with threshold-based health classification and regression
+                detection.
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>CSS</span>
+                <span>Recharts</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://frontend-observability-dashboard.netlify.app/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a
+                  href="https://github.com/KUNAL3369/frontend-observability-dashboard"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-animate>
+            <div class="project-image">
+              <div
+                class="project-placeholder"
+                style="
+                  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+                "
+              >
+                <i class="fas fa-users-cog"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Lead Management Dashboard</h3>
+              <p>
+                Full-stack admin dashboard for managing customer leads with CRUD
+                operations, status-based views, filtering, and server-side
+                pagination.
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://lead-management-dashboard-rosy.vercel.app/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a
+                  href="https://github.com/KUNAL3369/lead-management-dashboard"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card" data-animate>
+            <div class="project-image">
+              <div
+                class="project-placeholder"
+                style="
+                  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+                "
+              >
+                <i class="fas fa-comments"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Gemini-Style Chat Interface</h3>
+              <p>
+                Modern chat application with OTP authentication, centralized
+                state management using Zustand, and responsive dark/light mode
+                UI.
+              </p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Zustand</span>
+                <span>Tailwind CSS</span>
+                <span>Zod</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://gemini-clone-nu-lac.vercel.app/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+                <a
+                  href="https://github.com/KUNAL3369/gemini-clone"
+                  target="_blank"
+                  class="project-link"
+                >
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title" data-animate>Education</h2>
+        <div class="education-grid">
+          <div class="education-card" data-animate>
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <h3>M.Tech in Computer Science and Engineering</h3>
+            <p class="education-institution">
+              Vignan's Foundation for Science, Technology & Research
+            </p>
+            <div class="education-details">
+              <span><i class="fas fa-calendar"></i> 2023 – 2025</span>
+              <span><i class="fas fa-star"></i> CGPA: 8.03/10</span>
+              <span><i class="fas fa-map-marker-alt"></i> Guntur, India</span>
+            </div>
+          </div>
+          <div class="education-card" data-animate>
+            <div class="education-icon">
+              <i class="fas fa-university"></i>
+            </div>
+            <h3>B.Tech in Electronics and Communication Engineering</h3>
+            <p class="education-institution">
+              National Institute of Technology, Hamirpur
+            </p>
+            <div class="education-details">
+              <span><i class="fas fa-calendar"></i> 2016 – 2020</span>
+              <span><i class="fas fa-map-marker-alt"></i> Hamirpur, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+      <div class="container">
+        <h2 class="section-title" data-animate>Achievements</h2>
+        <div class="achievements-grid">
+          <div class="achievement-card" data-animate>
+            <div class="achievement-icon">
+              <i class="fas fa-file-alt"></i>
+            </div>
+            <h3>Research Paper Publication</h3>
+            <p>
+              "Smart Home Power Optimization Through Advanced Deep Reinforcement
+              Learning" - IJERCSE Vol.12 (2025)
+            </p>
+          </div>
+          <div class="achievement-card" data-animate>
+            <div class="achievement-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3>ROBO-CON 2018</h3>
+            <p>26th place in national robotics competition, Pune</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title" data-animate>Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info" data-animate>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <a href="mailto:kunal.prabhakar3082@gmail.com"
+                  >kunal.prabhakar3082@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <a href="tel:+918894973105">+91 8894973105</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>Delhi, India (Open to Relocate)</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://github.com/KUNAL3369"
+                target="_blank"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://linkedin.com/in/prabhakarkunal"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://kunal3369.github.io/kunal_portfolio/"
+                target="_blank"
+                aria-label="Portfolio"
+              >
+                <i class="fas fa-globe"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h3>Kunal Prabhakar</h3>
+            <p>
+              Frontend Developer specializing in React.js, dashboards, and
+              automation
+            </p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h4>Social</h4>
+            <div class="social-icons">
+              <a href="https://github.com/KUNAL3369" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a href="https://linkedin.com/in/prabhakarkunal" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Kunal Prabhakar. All rights reserved.</p>
+          <p>
+            Built with <i class="fas fa-heart"></i> using HTML, CSS & JavaScript
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
