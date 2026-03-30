@@ -137,7 +137,7 @@ function initScrollAnimations() {
             if (entry.isIntersecting) {
                 // Add delay based on index for staggered animations
                 const index = Array.from(animatedElements).indexOf(entry.target);
-                const delay = index * 0.1;
+                const delay = index * 0.05;
                 entry.target.style.transitionDelay = `${delay}s`;
                 entry.target.classList.add('animated');
                 observer.unobserve(entry.target);
@@ -177,7 +177,7 @@ function initCounterAnimations() {
 
 function animateCounter(element) {
     const target = parseInt(element.getAttribute('data-target'));
-    const duration = 2000; // 2 seconds
+    const duration = 1500; // 1.5 seconds
     const step = target / (duration / 16); // 60fps
     let current = 0;
 

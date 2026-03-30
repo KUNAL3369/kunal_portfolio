@@ -1,7 +1,6 @@
-# Kunal Prabhakar - Frontend Developer Portfolio
+# Kunal Prabhakar - Product Engineer Portfolio
 
-A modern, professional portfolio website showcasing my skills, experience, and projects as a Frontend Developer specializing in React.js, dashboards, and automation.
-
+A modern, professional portfolio website showcasing my skills and projects as a Product Engineer specializing in AI applications, internal tools, and dashboards.
 
 ## 🌐 Live Demo
 
@@ -19,42 +18,78 @@ Visit the live portfolio at: [https://kunal3369.github.io/kunal_portfolio/](http
 
 ## 📖 About
 
-This portfolio website is built using pure HTML, CSS, and JavaScript, featuring a modern, minimalist design with smooth scrolling navigation, scroll animations, and full responsiveness across all devices. It highlights my professional journey as a Frontend Developer with expertise in building production-ready dashboards and internal tools using React.
+This portfolio website is built using HTML, Tailwind CSS, and JavaScript, featuring a dark theme with clean, modern design. It highlights my approach to building AI-powered products, internal tools, and systems that solve real-world problems.
 
 ## ✨ Features
 
-- **Modern Design**: Clean, minimalist aesthetic with professional color scheme
-- **Responsive Layout**: Optimized for desktop, tablet, and mobile devices
-- **Smooth Animations**: Scroll-reveal animations, counter animations, and hover effects
-- **Animated Hero Section**: Gradient orbs with floating animation
-- **Animated Statistics**: Counter animations for key achievements
-- **Timeline Experience**: Vertical timeline for work experience
-- **Project Showcase**: Interactive project cards with hover effects
-- **Mobile Navigation**: Hamburger menu with smooth transitions
-- **Back to Top Button**: Easy navigation to the top of the page
-- **Active Section Highlighting**: Current section indicator in navigation
-- **SEO Optimized**: Meta tags for better search engine visibility
-- **Fast Loading**: Optimized for performance
+- **Dark Theme**: Professional dark color scheme (#0b0b12 background)
+- **Responsive Design**: Mobile-first approach, fully responsive across all devices
+- **Clean Typography**: Inter and Poppins fonts for modern readability
+- **Card-based Layout**: Projects displayed in clean, hover-interactive cards
+- **Smooth Transitions**: Subtle hover effects and transitions
+- **Fast Loading**: No heavy animations, optimized for performance
+- **Mobile Navigation**: Clean hamburger menu for mobile devices
+- **SEO Optimized**: Proper meta tags and semantic HTML
 
 ## 🛠 Technologies Used
 
-- **HTML5**: Semantic markup for structure
-- **CSS3**: Custom styling with CSS variables, flexbox, and grid
-- **JavaScript**: Smooth scrolling, scroll animations, and interactive features
-- **Google Fonts**: Inter, Poppins, and Space Grotesk for modern typography
-- **FontAwesome**: Icon library for social links and UI elements
+- **HTML5**: Semantic markup
+- **Tailwind CSS**: Utility-first CSS framework
+- **JavaScript**: Interactive features and smooth scrolling
+- **Google Fonts**: Inter and Poppins for typography
+- **FontAwesome**: Icon library
 
 ## 📄 Sections
 
-1. **Hero Section**: Name, professional title, tagline, CTA buttons, and social links
-2. **About Me**: Professional summary with animated stat counters
-3. **Skills & Technologies**: Categorized skills (Core Frontend, State & APIs, Data Visualization, Development Tools)
-4. **Experience**: Vertical timeline with detailed work history and achievements
-5. **Projects**: Featured projects showcase with tech stacks and live demo links
-6. **Education**: Academic background and qualifications
-7. **Achievements**: Research publications and recognitions
-8. **Contact**: Email, phone, location, and social media links
-9. **Footer**: Quick links, social icons, and copyright
+1. **Hero**: Name, title, tagline, and CTA buttons
+2. **About**: Professional background and focus areas
+3. **How I Build Products**: Product development methodology
+4. **Projects**: Showcase of key projects with architecture and tech details
+5. **Skills**: Technical skills grouped by category
+6. **Experience**: Professional experience
+7. **Contact**: Contact information and social links
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- A web browser
+- Internet connection for Tailwind CDN
+
+### Running Locally
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/KUNAL3369/kunal_portfolio.git
+   cd kunal_portfolio
+   ```
+
+2. Open `index.html` in your web browser, or serve with a local server:
+   ```bash
+   python -m http.server 8000
+   ```
+   Then visit `http://localhost:8000`
+
+## 📦 Deployment
+
+This portfolio can be deployed to any static hosting service:
+
+- **GitHub Pages**: Push to `gh-pages` branch
+- **Vercel**: Connect GitHub repo
+- **Netlify**: Drag & drop the files or connect repo
+- **Firebase Hosting**: Use Firebase CLI
+
+## 📞 Contact
+
+- **Email**: kunal.prabhakar3082@gmail.com
+- **GitHub**: [https://github.com/KUNAL3369](https://github.com/KUNAL3369)
+- **LinkedIn**: [https://linkedin.com/in/prabhakarkunal](https://linkedin.com/in/prabhakarkunal)
+- **Resume**: [Download](https://drive.google.com/uc?export=download&id=17BnnWtVZ1NLR0E7lr4sQgAv4I186Q42f)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE). 3. **Skills & Technologies**: Categorized skills (Core Frontend, State & APIs, Data Visualization, Development Tools) 4. **Experience**: Vertical timeline with detailed work history and achievements 5. **Projects**: Featured projects showcase with tech stacks and live demo links 6. **Education**: Academic background and qualifications 7. **Achievements**: Research publications and recognitions 8. **Contact**: Email, phone, location, and social media links 9. **Footer**: Quick links, social icons, and copyright
 
 ## 🚀 Deployment
 
